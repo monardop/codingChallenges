@@ -1,13 +1,13 @@
 /**
  * binarySearch for index searching
- * @param array 
- * @param target 
+ * @param array
+ * @param target
  * @returns index or -1
  */
 export function binarySearch(array: number[], target: number): number {
   const arrayLen = array.length;
   let left = 0,
-      right = arrayLen - 1;
+    right = arrayLen - 1;
   let middle = Math.floor((left + right) / 2);
 
   while (left <= right) {
