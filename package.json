@@ -1,0 +1,36 @@
+{
+  "name": "codingchallenges",
+  "version": "1.0.0",
+  "description": "A personal learning project focused on mastering algorithm implementation in TypeScript while building strong foundations in unit testing with Vitest.",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest",
+    "format": "prettier --write .",
+    "prepare": "husky"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monardop/codingChallenges.git"
+  },
+  "keywords": [
+    "challenges",
+    "codingChallenges",
+    "hackerRank",
+    "TypeScript",
+    "Vitest"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monardop/codingChallenges/issues"
+  },
+  "homepage": "https://github.com/monardop/codingChallenges#readme",
+  "devDependencies": {
+    "@types/node": "^24.9.2",
+    "husky": "^9.1.7",
+    "prettier": "^3.6.2",
+    "tsx": "^4.20.6",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.6"
+  }
+}
